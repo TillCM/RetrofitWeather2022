@@ -13,10 +13,10 @@ jobs:
     # See: https://circleci.com/docs/2.0/configuration-reference/#steps
     steps:
       - checkout:
-          - path: ~/dev/ionic-test
+
       - run:
           name: "run lint test"
-          command: |
+          command
             ls -l
             cd android && chmod +x ./gradlew
             ./gradlew lint test
