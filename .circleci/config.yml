@@ -12,6 +12,8 @@ jobs:
           name: List file content
           command: |
             ls -l
+            chmod +x ./gradlew
+            ./gradlew lint test
 workflows:
   say-hello-workflow:
     jobs:
