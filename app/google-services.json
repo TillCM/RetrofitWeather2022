@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259435868595",
+    "project_id": "retrorifweather",
+    "storage_bucket": "retrorifweather.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259435868595:android:c3bb007b8c1efd739f5bc6",
+        "android_client_info": {
+          "package_name": "com.vc.retrorifweather"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259435868595-96e9tflf16hlp8qvjvef49ai2jdts36q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVmur76BYSUbQqHatr6z_8Oi0klkJdovY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259435868595-96e9tflf16hlp8qvjvef49ai2jdts36q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
