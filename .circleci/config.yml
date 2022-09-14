@@ -8,6 +8,10 @@ jobs:
     steps:
       - checkout:
           path: ~/dev/ionic-test
+      - run:
+          name: List file content
+          command: |
+            ls -l
 workflows:
   say-hello-workflow:
     jobs:
