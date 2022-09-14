@@ -9,7 +9,7 @@ jobs:
       - checkout:
           path: ~/dev/ionic-test
       - run:
-          name: List file content
+          name: Lint test
           command: |
             ls -l
             chmod +x ./gradlew
